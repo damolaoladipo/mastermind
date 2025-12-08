@@ -65,9 +65,9 @@ const IHeader: React.FC = () => {
         sticky ? "shadow-lg bg-accent dark:bg-dark" : "shadow-none"
       }`}
     >
-      <div className="bg-primary py-2 dark:bg-dark">
+      <div className="md:bg-primary bg-white  py-2 dark:bg-dark">
         <div className="container mx-auto lg:max-w-(--breakpoint-xl) md:max-w-(--breakpoint-md) flex items-center justify-between px-4">
-          <div className="lg:hidden block">
+          <div className="lg:hidden block w-50  md:w-80">
             <Logo />
           </div>
 

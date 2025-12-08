@@ -13,19 +13,21 @@ export default function CallToAction() {
          <div className="flex flex-col items-center justify-center lg:flex-row">
         <div className="mb-8 lg:mb-0 lg:w-1/3">
           <Image
-            src="/blocks/child.png" // Replace with your image path
-            alt="Father and child"
+            src="/mm/mmkids-3.png" // Replace with your image path
+            alt="call to action image"
             width={800}
             height={500}
-            className="rounded-lg shadow-lg"
-          />
+            
+                objectFit="cover"
+                className="hover:scale-105 transition-transform duration-300 rounded-lg shadow-lg"
+                    />
         </div>
         <div className="bg-primary p-12 rounded-lg shadow-lg text-white lg:w-1/1 lg:ml-8 ">
 
         <div className=''>
 
                <h2 className="max-w-2xl font-fredoka text-balance text-3xl font-medium md:text-4xl">Are You Ready to Explore More?</h2>
-          <p className="text-white my-8 max-w-2xl text-balance text-xl mb-6">
+          <p className="text-white my-8  max-w-2xl text-balance text-xl mb-6">
             Don&apos;t miss out on more creative ideas, parenting tips, and fun activities! Stay connected with us for the latest updates and exclusive offers.
           </p>
           <Button asChild className="bg-yellow-400 text-green-900 hover:bg-yellow-500">

@@ -6,7 +6,7 @@ const Logo: React.FC = () => {
   return (
     <Link href="/">
       <Image
-        src="/blocks/mmdkids-logo.svg"
+        src="/blocks/masterminds.svg"
         alt="logo"
         width={260}
         height={100}
@@ -15,7 +15,7 @@ const Logo: React.FC = () => {
         className='dark:hidden'
       />
       <Image
-        src="/blocks/mmdkids-logo.svg"
+        src="/blocks/masterminds.svg"
         alt="logo"
         width={260}
         height={100}

@@ -8,14 +8,14 @@ import Image from 'next/image'
 export default function HeroSection() {
     return (
         <>
-            <main className="overflow-hidden">
-                <section className="bg-linear-to-b to-muted from-background font-fredoka?']][">
-                    <div className="relative py-44 mt-30 ">
+            
+                <section className="bg-linear-to-b to-muted from-background font-fredoka overflow-hidden">
+                    <div className="relative py-44 md:mt-30 ">
                         <div className="relative z-10 mx-auto w-full max-w-7xl px-6">
                             <div className="md:w-1/2">
                                 <div>
                                     <h1 className="max-w-2xl font-fredoka text-balance text-5xl font-medium md:text-6xl">Caring Hands, Quality Home Care for Your Little One</h1>
-                                    <p className="text-muted-foreground my-8 max-w-2xl text-balance text-xl">Welcome to Nasterninds Day caare, a supportive space committed to empowering liitle lads in managing child care and achieving success. Our mission is to offer the guidance, resources and thrive in every aspect of life</p>
+                                    <p className="text-muted-foreground my-8 max-w-2xl text-balance text-xl">Welcome to Masterninds Day care, a supportive space committed to empowering little lads in managing child care and achieving success. Our mission is to offer the guidance, resources and thrive in every aspect of life</p>
 
                                     <div className="flex items-center gap-3">
                                         <Button
@@ -80,7 +80,7 @@ export default function HeroSection() {
                             <div className="before:border-foreground/5 before:bg-foreground/5 relative h-full before:absolute before:-inset-x-4 before:bottom-7 before:top-0 before:skew-x-6 before:rounded-[calc(var(--radius)+1rem)] before:border">
                                 <div className="bg-background rounded-(--radius) shadow-foreground/10 ring-foreground/5 relative h-full -translate-y-12 skew-x-6 overflow-hidden border border-transparent shadow-md ring-1">
                                     <Image
-                                        src="/blocks/hero-image.png"
+                                        src="/mm/mmkids.png"
                                         alt="app screen"
                                         width="2880"
                                         height="1842"
@@ -97,7 +97,6 @@ export default function HeroSection() {
             
             
             
-            </main>
         </>
     )
 }

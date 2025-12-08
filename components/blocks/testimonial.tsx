@@ -66,7 +66,7 @@ export default function Testimonials() {
                         <h2 className="max-w-2xl font-fredoka text-balance text-5xl font-medium md:text-6xl">
                             Testimonials
                         </h2>
-                        <p className="text-gray-500 mt-2">Trusted reviews from happy parents.</p>
+                        <p className="text-gray-500 text-xl mt-2">Trusted reviews from happy parents.</p>
                     </div>
                 </div>
                 {/* End Header Section */}
