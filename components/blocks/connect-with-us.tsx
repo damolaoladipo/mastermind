@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Facebook, Linkedin, Instagram } from 'lucide-react';
 
 export default function ConnectWithUs() {
   const images = [
@@ -20,7 +20,7 @@ export default function ConnectWithUs() {
               <Facebook size={20} />
             </a>
             <a href="#" className="p-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors">
-              <Twitter size={20} />
+              <Instagram size={20} />
             </a>
             <a href="#" className="p-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors">
               <Linkedin size={20} />

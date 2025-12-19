@@ -7,7 +7,7 @@ export const siteConfig = {
   ogImage: "/blocks/og-image.png",
   links: {
     creator: "@mmdkids",
-    twitter: "https://x.com/mmdkids",
+    // twitter: "https://x.com/mmdkids",
     instagram: "https://instagram.com/mmdkids",
     linkedin: "https://linkedin.com/company/mmdkids",
     github: "https://github.com/mmdkids",

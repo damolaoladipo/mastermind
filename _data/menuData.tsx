@@ -20,6 +20,8 @@ export const headerData: HeaderItem[] = [
     href: "/our-philosophy"
   },
   { label: "Our Staff", href: "/our-staff" },
+  { label: "Fees", href: "/fees" },
+  { label: "Gallery", href: "/gallery" },
   
   // {
   //   label: "Events",

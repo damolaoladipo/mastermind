@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -45,7 +45,7 @@ export default function AboutSection() {
           <p className="text-primary text-sm font-medium">About Us</p>
 
           <h2 className="font-fredoka text-4xl md:text-6xl font-medium">
-            Finding Superior Care for Your Baby
+            Finding Exceptional Care for Your Child
           </h2>
 
           <p className="text-neutral-800 my-6 max-w-xl text-lg">

@@ -1,13 +1,15 @@
 import React from "react";
+// import CallToAction from "@/components/blocks/call-to-action";
+// import ContactUs from "@/components/blocks/contact-us";
 
 export default function FeesSection() {
   return (
-    <section className="w-full font-fredoka bg-accent text-black py-16 px-6 md:px-20">
-      <div className="mx-auto max-w-7xl">
+    <div className="w-full px-4 sm:px-6 md:px-20">
+      <div className="mx-auto max-w-6xl rounded-3xl bg-accent text-black font-fredoka px-6 md:px-16 py-10 md:py-14">
         <div className="flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
-            <p className="text-primary text-sm font-medium">Fees</p>
-            <h2 className="font-fredoka text-4xl md:text-6xl font-medium">
+          <div className="flex ">
+            {/* <p className="text-primary text-sm font-medium">Fees</p> */}
+            <h2 className="font-fredoka text-green-600 text-2xl md:text-x font-medium">
               Affordable Childcare Fees
             </h2>
           </div>
@@ -30,14 +32,14 @@ export default function FeesSection() {
                 3-5 days per week
               </p>
               <div className="flex items-baseline gap-2">
-                <span className="font-fredoka text-5xl font-medium text-primary">
+                <span className="font-fredoka text-2xl font-medium text-primary">
                   $326.25
                 </span>
                 <span className="text-neutral-600 text-lg">per month</span>
               </div>
             </div>
 
-            <div className="bg-white rounded-lg p-8 border-2 border-primary shadow-lg">
+            <div className="bg-white  rounded-lg p-8 border-2 border-primary shadow-lg">
               <h3 className="font-fredoka text-3xl font-medium mb-4 text-primary">
                 Part Time
               </h3>
@@ -45,7 +47,7 @@ export default function FeesSection() {
                 2 days per week
               </p>
               <div className="flex items-baseline gap-2">
-                <span className="font-fredoka text-5xl font-medium text-primary">
+                <span className="font-fredoka text-2xl font-medium text-primary">
                   $230
                 </span>
                 <span className="text-neutral-600 text-lg">per month</span>
@@ -57,7 +59,20 @@ export default function FeesSection() {
           </div>
         </div>
       </div>
-    </section>
+
+       {/* <div className="md:px-40">
+      
+              <ContactUs/>
+              
+        </div> */}
+      
+
+      {/* <div className="px-5 w-full items-center justify-center">
+              <CallToAction />
+            </div> */}
+    </div>
+  
+    
   );
 }
 
