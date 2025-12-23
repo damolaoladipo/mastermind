@@ -20,14 +20,14 @@ export default function AboutSection() {
           </div>
 
           {/* Overlay Image (Desktop only positioning) */}
-          <div className="hidden md:block absolute left-64 bottom-0 w-60 h-60 rounded-lg overflow-hidden shadow-xl">
+          {/* <div className="hidden md:block absolute left-64 bottom-0 w-60 h-60 rounded-lg overflow-hidden shadow-xl">
             <Image
               src="/mm/mmkids-d-1.png"
               alt="dad and child"
               fill
               className="object-cover"
             />
-          </div>
+          </div> */}
 
           {/* Decorative Star */}
           <div className="hidden md:block absolute -bottom-16 left-10 w-24 h-24 md:w-32 md:h-32">
